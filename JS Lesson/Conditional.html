@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="javascript">
+        a = 8 ;
+        b = 6 ;
+        C = a > b ? "Yes" : "No";
+        document.write( c + "it's greater");
+    </script>
+
+<script language="javascript">
+    A = 8 ;
+    B = 6 ;
+    C = A > B ? "Yes" : "No";
+    document.write( c + "it's greater");
+</script>
+
+
+<p id="demo"></p>
+    <script>
+        x = 6 ;
+        y = 8 ; 
+
+        if (x > y) {
+            document.getElementById("demo").innerHTML = "Good day!";
+        }
+    </script>
+
+    <p id="demo"></p>
+    <script>
+        const hour = new Date().getHours();
+        let greeting;
+        if (hour < 18) {
+            greeting = "Good day";
+        } else {
+            greeting = "Good evening";
+        }
+        document.getElementByID("demo").innerHTML = greeting + " Time check! The hour is now " + hour + "00H. Time for bed!";
+    </script>
+
+
+<script>
+const hour = new Date().getHours();
+let greeting;
+if (hour < 18) {
+  greeting = "Good morning!";
+  action = "Rise and shine!";
+} else {
+  greeting = "Good evening!";
+  action = "Time for bed!";
+}
+
+document.write( greeting + " Time check! The hour is now " + hour + "00H! " + action );
+</script>
+
+<script>
+    var d = new Date();
+var n = d.getHours();
+if (n < 12) {
+  alert("Good Morning");
+} else if (n > 12 && n < 18) {
+  alert("Good Afternoon");
+} else {
+  alert("Good Evening");
+}
+
+</script>
+
+
+</body>
+</html>
